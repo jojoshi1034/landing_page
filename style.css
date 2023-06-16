@@ -138,6 +138,7 @@ html, body {
 
 .sign-up-description{
     font-size: 18px;
+    font-weight: 100;
 }
 
 .sign-up-ad-right {
@@ -149,6 +150,10 @@ html, body {
 .footer {
     background-color: #1f2937;
     color: white;
+    text-align: center;
+    font-size: 7px;    
+    font-weight: 100;
+    padding: 20px;
 }
 
 /* Button */
