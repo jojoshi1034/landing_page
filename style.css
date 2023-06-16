@@ -1,0 +1,30 @@
+html, body {
+    margin: 0px;    
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+.header {
+    background-color: #1f2937;
+
+}
+
+.section1 {
+    background-color: #1f2937;
+}
+
+.section2 {
+
+}
+
+.section3 {
+    background-color: #e5e7eb;
+}
+
+.section4 {
+    
+}
+
+.footer {
+    background-color: #1f2937;
+}
