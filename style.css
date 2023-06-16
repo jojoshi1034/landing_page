@@ -5,43 +5,109 @@ html, body {
     display: flex;
 }
 
+/* Header */
 .header {
     background-color: #1f2937;
     display: flex;
-    flex: 1;
     padding-left: 300px;
     color: white;
 }
 
-.header .header-logo {
+.header-logo {
     margin-bottom: 100px;
     margin-right: 400px;
     font-size: 24px;
 }
 
-.header .header-link {
+.header-link {
     margin: 10px;
     font-size: 18px;
 }
 
+/* Section 1 */
 .section1 {
     background-color: #1f2937;
     color: white;
+    display: flex;
 }
 
+.section1-left {
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+}
+
+.section1-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.section1-description {
+    font-size: 18px;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.section1-image {
+    border: 3px;
+    border-style: solid;
+    border-color: #1f2937;
+    border-radius: 20px;
+}
+
+/* Section 2 */
 .section2 {
-
+    flex-direction: column;
+    display: flex;
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-top: 30px;
+    margin-bottom: 100px;   
 }
 
+.section2-title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    font-size: 10px;
+}
+
+.info-image {
+    border: 3px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 20px;
+}
+
+/* Section 3 */
 .section3 {
     background-color: #e5e7eb;
 }
 
+/* Section 4 */
 .section4 {
     
 }
 
+/* Footer */
 .footer {
     background-color: #1f2937;
     color: white;
 }
+
+/* Button */
+.sign-up {
+    background-color: #3882f6; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }
